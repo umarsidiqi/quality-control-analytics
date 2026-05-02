@@ -133,7 +133,7 @@ quality-control-analytics/
 
 ```bash
 # Clone the repository
-git clone https://github.com/umarsidiqi/Analytics-Portfolio.git
+git clone https://github.com/umarsidiqi/quality-control-analytics.git
 
 # Navigate to the project folder
 cd quality-control-analytics
@@ -154,4 +154,4 @@ python analysis.py
 
 **Muhammad Umar Siddiqui**
 Master's student in International Information Systems — FAU Erlangen-Nürnberg
-[LinkedIn](https://www.linkedin.com/in/umar-sidd/) | [GitHub](https://github.com/umarsidiqi)
+[LinkedIn](https://www.linkedin.com/in/umar-sidd/)
