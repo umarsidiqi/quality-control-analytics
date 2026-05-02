@@ -93,17 +93,16 @@ The heatmap provides a cross-sectional view of defect rates by product line and 
 
 ## Power BI Dashboard
 
-The `outputs/quality_summary_for_powerbi.csv` file contains a pre-aggregated summary table with monthly defect rates, pass/fail ratios, and unit counts broken down by product line, defect type, and shift.
+An interactive dashboard was built in Power BI using the exported summary data, featuring slicers for Product Line and Shift to enable dynamic filtering across all visuals.
 
-This file was designed to be directly imported into Power BI to build an interactive dashboard with slicers for product line, time period, shift, and defect type.
+![Power BI Dashboard](powerbi_dashboard.png)
 
-**Dashboard views included:**
-- Overall Quality KPI cards (defect rate, pass rate, total units)
-- Monthly defect rate line chart with trend line
-- Defect breakdown by type and product line
-- Shift performance comparison
-- Quarterly heatmap matrix
-
+**Dashboard includes:**
+- KPI cards: Total Units Inspected, Total Defects Found, Avg Defect Rate, Avg Pass Rate
+- Monthly defect rate trend line chart
+- Defect rate by product line horizontal bar chart
+- Defect type breakdown donut chart
+- Pass vs Fail rate by shift column chart
 ---
 
 ## Project Structure
