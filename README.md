@@ -57,35 +57,35 @@ This project addresses that by:
 ## Analysis & Findings
 
 ### 1. Monthly Defect Rate Trend
-![Monthly Defect Trend](outputs/01_monthly_defect_trend.png)
+![Monthly Defect Trend](01_monthly_defect_trend.png)
 
 Defect rates fluctuate month to month with a visible seasonal pattern. Several months exceed the average defect rate of ~1.55%, signaling periods where quality interventions would be warranted.
 
 ---
 
 ### 2. Defect Rate by Product Line
-![Defect Rate by Product Line](outputs/02_defect_rate_by_product_line.png)
+![Defect Rate by Product Line](02_defect_rate_by_product_line.png)
 
 **Sub-System Z** consistently shows the highest defect rate across the analysis period, making it the primary target for quality improvement initiatives. **Assembly B** performs best with the lowest defect rate.
 
 ---
 
 ### 3. Defect Type Distribution
-![Defect Type Breakdown](outputs/03_defect_type_breakdown.png)
+![Defect Type Breakdown](03_defect_type_breakdown.png)
 
 **Surface Defects** are the most frequently occurring defect type, accounting for the largest share of all recorded defects. This points to potential issues in the surface treatment or handling stage of the production process.
 
 ---
 
 ### 4. Pass vs Fail Rate by Shift
-![Pass Fail by Shift](outputs/04_pass_fail_by_shift.png)
+![Pass Fail by Shift](04_pass_fail_by_shift.png)
 
 All three shifts show similar pass/fail ratios, suggesting that shift-related factors are not a primary driver of defect rates. Quality issues appear systemic rather than shift-specific.
 
 ---
 
 ### 5. Quarterly Defect Rate Heatmap
-![Quarterly Heatmap](outputs/05_quarterly_heatmap.png)
+![Quarterly Heatmap](05_quarterly_heatmap.png)
 
 The heatmap provides a cross-sectional view of defect rates by product line and quarter. Sub-System Z shows elevated rates across multiple quarters while Component Y remains relatively stable, helping prioritize where resources should be focused.
 
